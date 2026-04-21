@@ -15,6 +15,13 @@ I haven't try other camera, but most usb camera might be usable.
 ## Usage example
 
 ```
+Check your camera available resolution
+C:\[your file location]>python camera_test_res_check.py
+
+After you know what resolution is allowed in your camera,
+modify the camera_test_usbcam.py program and change the resolution of the camera
+then save it.
+
 Run the program
 C:\[your file location]>python camera_test_usbcam.py
 
