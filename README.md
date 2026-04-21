@@ -5,6 +5,7 @@
 - Run the usb camera on windown terminal
 - Tune the camera brightness, contrast, toggle auto exposure, and resolution
 - Save the picture or record the video
+- When changing the camera resolution, the fps value for the video recording also change.
 
 ## Compatible camera
 
@@ -15,11 +16,11 @@ I haven't try other camera, but most usb camera might be usable.
 ## Usage example
 
 ```
-Check your camera available resolution
-C:\[your file location]>python camera_test_res_check.py
+Check your camera available resolution and its fps for video recording
+C:\[your file location]>python camera_test_fps_check.py
 
 After you know what resolution is allowed in your camera,
-modify the camera_test_usbcam.py program and change the resolution of the camera
+modify the camera_test_usbcam.py program and change the resolution and the fps of the camera
 then save it.
 
 Run the program
