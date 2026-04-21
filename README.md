@@ -1,4 +1,4 @@
-# usb_camera with python
+# USB camera with python
 
 ## Overview
 
